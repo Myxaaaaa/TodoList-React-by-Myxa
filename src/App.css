@@ -1,0 +1,37 @@
+.App {
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.todo-list {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.task-input input {
+    padding: 8px;
+    margin-right: 10px;
+}
+
+.task-input button {
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+.tasks {
+    list-style: none;
+    padding: 0;
+}
+
+.tasks li {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tasks li button {
+    margin-left: 5px;
+}
